@@ -1,0 +1,23 @@
+{
+    "seed": 42,
+    "epochs": 5,
+    "dataset": "MaskBaseDataset",
+    "augmentation": "CustomAugmentation",
+    "resize": [
+        224,
+        224
+    ],
+    "batch_size": 8,
+    "valid_batch_size": 16,
+    "model": "EfficientNet_B4",
+    "optimizer": "madgrad",
+    "lr": 1e-06,
+    "val_ratio": 0.2,
+    "criterion": "label_smoothing",
+    "lr_decay_step": 20,
+    "log_interval": 20,
+    "name": "Other_EfficientNet_B4_1",
+    "valid": 1,
+    "data_dir": "/opt/ml/input/data/train/images",
+    "model_dir": "./model"
+}

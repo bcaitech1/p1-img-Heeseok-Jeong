@@ -1,0 +1,5 @@
+{
+    "seed": { "_type": "choice", "_value": [42, 525, 220] },
+    "model": { "_type": "choice", "_value": ["My_VGGNet11_BN", "VGGNet11_BN"] },
+    "optimizer": { "_type": "choice", "_value": ["madgrad", "adamp"]}
+}
